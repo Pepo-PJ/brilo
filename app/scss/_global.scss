@@ -1,0 +1,126 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: $white;
+  background-color: $dkGray;
+}
+
+a {
+    cursor:pointer;
+    color: $white;
+    text-decoration: none;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    max-width: 1170px;
+}
+
+ul.horizontal li {
+    float: right;
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    text-align: center;
+    padding: 25px 16px;
+ }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $dkBlue;
+    text-transform: uppercase;
+
+}
+
+.row {
+    max-width: 1170px;
+    margin: auto;
+    display: table;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.container {
+  max-width: 1170px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.column {
+  flex: 1;
+}
+.column:nth-child(2) {
+  margin: 0 20px;
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+    display: table-cell;
+}
+
+.col-33 {
+    width: 33.33%;
+    float: left;
+    display: table-cell;
+    overflow: hidden;
+}
+
+
+.portfolio {
+    background-color: $ltBlue;
+    
+}
+
+.header-img{
+    max-width: 350px;
+    float: right;
+}
+
+.portfolio-img {
+    width: 100%;
+    outline: 1px solid white;
+    outline-offset: -20px;
+    transition: all 0.9s ease-out;
+    
+}
+
+.portfolio-img:hover {
+    outline-offset: -10px;
+
+}
+
+.description {
+    padding: 20px;
+
+}
+
+.btn {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3697a7;
+    cursor:pointer;
+}
+
+.footer {
+    text-align: center;
+}
